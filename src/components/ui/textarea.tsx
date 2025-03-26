@@ -1,6 +1,3 @@
-// components/ui/textarea.tsx
-import React from "react";
-
 type TextareaProps = {
   placeholder: string;
   className?: string;

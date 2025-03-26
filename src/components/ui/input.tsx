@@ -1,5 +1,3 @@
-// components/ui/input.tsx
-import React from "react";
 
 type InputProps = {
   placeholder: string;
