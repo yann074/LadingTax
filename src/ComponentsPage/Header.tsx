@@ -10,7 +10,7 @@ function Header() {
             {/* FAZER A PARADA DO ICON PARA MUDAR AS OP */}
             <img
               src={logo}
-              alt="Logo"
+              alt="Logo" 
               className="h-14 w-14 rounded-full border-2 border-yellow-700 shadow-lg"
             />
             <span className="text-xl font-bold">Tax Consultoria</span>
