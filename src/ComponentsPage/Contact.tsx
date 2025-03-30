@@ -10,7 +10,7 @@ function Contact() {
   const [motivo, setMotivo] = useState("");
   //const [message, setMessage] = useState("");
 
-  function send_email(e) {
+  function send_email(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (name === "" || email === "" || telefone === "" || motivo === "") {
       alert("Preencha Todos os Campos");
