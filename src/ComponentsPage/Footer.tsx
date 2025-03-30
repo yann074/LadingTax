@@ -1,5 +1,4 @@
 import { Facebook, Linkedin, MessageCircle } from "lucide-react";
-import logo from "../../public/logo.jpg"
 
 function Footer() {
   return (
