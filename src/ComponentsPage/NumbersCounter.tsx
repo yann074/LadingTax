@@ -48,16 +48,19 @@ function NumbersCounter() {
   }, [hasCounted]);
 
   return (
-    <div ref={counterRef} className="grid grid-cols-1 md:grid-cols-3 gap-6 py-12">
+    <div ref={counterRef} className="flex items-center gap-5 py-12 w-full justify-center flex-wrap">
       {count.map((count, i) => (
-        <Card key={i} className="border-yellow-700 hover:bg-yellow-700 hover:text-white transition-all">
-          <CardHeader>
-            <BarChart3 className="h-10 w-10 text-yellow-700 mb-2 group-hover:text-white transition-all" />
+        <Card
+          key={i}
+          className="border-yellow-700 group hover:scale-105 transition-transform w-[18rem] p-4 shadow-md"
+        >
+          <CardHeader className="flex items-center flex-col text-center">
+            <BarChart3 className="h-10 w-10 text-yellow-700 mb-2 transition-all group-hover:text-yellow-500" />
             <CardTitle className="text-4xl font-bold text-primary">+{count}</CardTitle>
-            <CardDescription>{numdata[i].data}</CardDescription>
+            <CardDescription className="text-gray-600">{numdata[i].data}</CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="text-sm text-muted-foreground group-hover:text-white transition-all">
+            <p className="text-sm text-muted-foreground text-center transition-all group-hover:text-yellow-700">
               Desenvolvemos estratégias fiscais personalizadas para ajudar você a reduzir legalmente sua carga
               tributária e maximizar a economia.
             </p>

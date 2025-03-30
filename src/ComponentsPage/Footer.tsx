@@ -1,12 +1,12 @@
-import { FileText, Facebook, Linkedin, MessageCircle } from "lucide-react";
+import { Facebook, Linkedin, MessageCircle } from "lucide-react";
+import logo from "../../public/logo.jpg"
 
 function Footer() {
   return (
     <>
-      <footer className="w-full border-t py-6 bg-muted">
+      <footer className="w-full border-t py-4 bg-muted">
         <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
-          <div className="flex items-center gap-2">
-            <FileText className="h-5 w-5 text-yellow-700" />
+          <div className="flex items-center gap-2 ml-4">
             <span className="font-semibold text-yellow-800">Tax Consultoria</span>
           </div>
 

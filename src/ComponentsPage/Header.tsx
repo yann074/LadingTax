@@ -1,4 +1,4 @@
-import { Button } from "../components/ui/button";
+
 import logo from "../../public/logo.jpg";
 
 function Header() {
@@ -26,7 +26,7 @@ function Header() {
               Testemunhas
             </a>
           </nav>
-          <Button>Vamos Começar</Button>
+          <a href="#contact" className="px-6 py-2 rounded-lg text-yellow-700 font-medium border border-yellow-700 bg-white shadow-md transition-all duration-200 ease-in-out hover:bg-yellow-700 hover:text-white ">Vamos Começar</a>
         </div>
       </header>
 

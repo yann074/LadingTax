@@ -15,7 +15,7 @@ function Services() {
             </div>
           </div>
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
-            <Card className="border-yellow-700 hover:bg-yellow-700 hover:text-white transition-all">
+            <Card className="border-yellow-700 hover:scale-103 transition-all">
               <CardHeader>
                 <BarChart3 className="h-10 w-10 text-yellow-700 mb-2" />
                 <CardTitle>Planejamento Tributário</CardTitle>
@@ -30,7 +30,7 @@ function Services() {
                 </p>
               </CardContent>
             </Card>
-            <Card className="border-yellow-700 hover:bg-yellow-700 hover:text-white transition-all">
+            <Card className="border-yellow-700 hover:scale-103 transition-all">
               <CardHeader>
                 <FileText className="h-10 w-10 text-yellow-700 mb-2" />
                 <CardTitle>Preparação de Impostos</CardTitle>
@@ -45,7 +45,7 @@ function Services() {
                 </p>
               </CardContent>
             </Card>
-            <Card className="border-yellow-700 hover:bg-yellow-700 hover:text-white transition-all">
+            <Card className="border-yellow-700 hover:scale-103 transition-all">
               <CardHeader>
                 <TrendingUp className="h-10 w-10 text-yellow-700 mb-2" />
                 <CardTitle>Consultoria Empresarial</CardTitle>
